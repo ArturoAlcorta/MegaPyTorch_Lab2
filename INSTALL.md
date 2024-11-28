@@ -10,8 +10,22 @@
 - OpenCV
 - CUDA >= 9.2
 
+### Option 1: Automatic Installation
+```bash
+# Clone the repository and run the automatic installation file
+git clone https://github.com/ArturoAlcorta/MegaPyTorch_Lab2
+cd MegaPyTorch_Lab2
+bash install_dependencies.sh
 
-### Option 1: Step-by-step installation
+# Initiate conda (if you haven't done it previously)
+conda init
+# Reset the Terminal
+
+# Activate the Virtual Environment
+conda activate MEGA
+```
+
+### Option 2: Step-by-step installation
 
 ```bash
 # first, make sure that your conda is setup properly with the right environment
@@ -54,8 +68,8 @@ python setup.py install
 
 # install PyTorch Detection
 cd $INSTALL_DIR
-git clone https://github.com/Scalsol/mega.pytorch.git
-cd mega.pytorch
+git clone https://github.com/ArturoAlcorta/MegaPyTorch_Lab2
+cd MegaPyTorch_Lab2
 
 # the following will install the lib with
 # symbolic links, so that you can modify
