@@ -12,17 +12,20 @@
 
 ### Option 1: Automatic Installation
 ```bash
-# Clone the repository and run the automatic installation file
-git clone https://github.com/ArturoAlcorta/MegaPyTorch_Lab2
-cd MegaPyTorch_Lab2
-bash install_dependencies.sh
 
 # Initiate conda (if you haven't done it previously)
 conda init
 # Reset the Terminal
 
+# Clone the repository and run the automatic installation file
+git clone https://github.com/ArturoAlcorta/MegaPyTorch_Lab2
+cd MegaPyTorch_Lab2
+bash install_dependencies.sh
+
 # Activate the Virtual Environment
 conda activate MEGA
+
+# Now everything is setup to work
 ```
 
 ### Option 2: Step-by-step installation
